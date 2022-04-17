@@ -51,10 +51,10 @@ function Admin() {
     <div className='container'>
       <div className="admin-wrap">
         <div className='category column'>
-        <form  onSubmit={handleCategory}>
+        {/* <form  onSubmit={handleCategory}>
             <input  ref={categoryRef} name='category' type="text" placeholder='New category' />
             <button type='submit'>Submit</button>
-          </form>
+          </form> */}
         </div>
         <div className='restaurant column'>
           <form  onSubmit={handleRestaurant}>
